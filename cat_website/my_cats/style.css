@@ -1,0 +1,143 @@
+h1,
+h3,
+h4 {
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4 {
+  font-style: italic;
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 150%;
+  font-size: large;
+}
+#bon_content {
+  background-image: url(https://img.freepik.com/premium-vector/gray-cute-cat-seamless-pattern_598722-198.jpg);
+  background-size: auto;
+}
+.bon {
+  width: 60%;
+  background-color: rgb(157, 144, 155);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  max-width: 500px;
+  display: block;
+  color: white;
+  border-radius: 100px;
+}
+#marc_content {
+  background-image: url(https://img.freepik.com/premium-vector/seamless-pattern-black-cat-different-poses-decorative-boho-style-elements-cosmic-sky-vector-repeat-mystical-illustration-grey_185796-166.jpg);
+  background-size: auto;
+}
+.marc {
+  width: 60%;
+  background-color: rgb(54, 50, 53);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  max-width: 500px;
+  display: block;
+  color: white;
+  border-radius: 100px;
+}
+#gunt_content {
+  background-image: url(https://img.freepik.com/premium-vector/cute-sleepy-grey-cat-seamless-pattern-grey-tabby-cat-is-sleeping-different-poses_729684-820.jpg);
+  background-size: auto;
+}
+.gunt {
+  width: 60%;
+  background-color: rgb(118, 152, 215);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  max-width: 500px;
+  display: block;
+  color: white;
+  border-radius: 100px;
+}
+img {
+  max-width: 200px;
+  margin: auto;
+  display: block;
+  padding: 0px;
+  box-shadow: 10px 10px 5px rgb(106, 100, 108);
+  border-radius: 50%;
+  border-style: dashed;
+  color:rgb(49, 49, 49);
+}
+#nep_content {
+  background-image: url(https://img.freepik.com/premium-vector/seamless-pattern-cartoon-cat-cute-animal-wallpaper-fabric-print-gift-wrap-paper_488586-1907.jpg);
+  background-size: auto;
+}
+.nep {
+  width: 60%;
+  background-color: rgb(216, 159, 73);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  max-width: 500px;
+  display: block;
+  color: white;
+  border-radius: 100px;
+}
+nav ul{
+  list-style: none;
+  padding: 20px;
+  margin: 0px auto;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 150%;
+}
+.other{
+  padding: 30px;
+}
+.other ul{
+  padding: 20px;
+  border: 3px dotted rgb(177, 70, 223);
+  border-radius: 70%;
+  width: 20%;
+  background-color: rgba(222, 180, 222, 0.819);
+}
+.home ul{
+  padding: 20px;
+  border: 3px dotted rgb(154, 54, 182);
+  border-radius: 90%;
+  width: 50%;
+  background-color: rgba(205, 150, 250, 0.695); 
+}
+.other ul li a{
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(88, 77, 240);
+}
+.other ul li a:hover{
+  color: rgb(122, 183, 236);
+}
+.home ul li a{
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+}
+.home ul li a:hover{
+  color: #ffffff;
+}
+@media screen and (max-width: 600px){
+.other ul{
+  width: 100%; /* Make the container full-width on mobile */
+  font-size: 16px;
+}
+}
+@media screen and (max-width: 600px){
+.home ul{
+  width: 100%; /* Make the container full-width on mobile */
+  font-size: 16px;
+}
+}
+@media screen and (max-width: 600px){
+#bon_content #marc_content #gunt_content #nep_content {
+  width: 100%; /* Make the container full-width on mobile */
+  font-size: 16px;
+  }
+}

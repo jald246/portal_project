@@ -1,0 +1,83 @@
+body {
+  background-image: url(https://wallpapers.com/images/hd/cute-cat-pattern-f52pyd5y7y9wk46z.jpg);
+  color: rgb(154, 72, 221);
+  padding: 20px;
+  background-size: contain;
+}
+p {
+  color: rgb(154, 54, 182);
+  line-height: 150%;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h4 {
+  font-weight: 100;
+  font-style: italic;
+}
+#cat_content {
+  width: 60%;
+  background-color: rgb(200, 157, 215);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px;
+  max-width: 500px;
+  border-radius: 100px;
+}
+img {
+  margin-top: -25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+img {
+  max-width: 200px;
+  margin: auto;
+  display: block;
+  padding: 0px;
+  box-shadow: 10px 10px 5px rgb(72, 76, 78);
+  border-radius: 50%;
+  border-style: groove;
+}
+nav ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 150%;
+}
+ul {
+  border: 3px dotted rgb(177, 70, 223);
+  border-radius: 70%;
+  width: 20%;
+  background-color: rgba(222, 180, 222, 0.819);
+}
+nav li a {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(88, 77, 240);
+}
+nav li a:hover {
+  color: rgb(122, 183, 236);
+}
+@media screen and (max-width: 600px) {
+  nav ul {
+    width: 100%; /* Make the container full-width on mobile */
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%; /* Make the container full-width on mobile */
+    font-size: 16px;
+  }
+}
